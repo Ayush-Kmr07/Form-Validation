@@ -51,4 +51,4 @@ To implement client-side validation, you can use JavaScript frameworks like jQue
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use
+This project is licensed under the [MIT License](LICENSE).
