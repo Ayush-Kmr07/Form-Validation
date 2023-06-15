@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <form action class="Form" name="myForm" onsubmit="return formValidation()" method="get">
+
+        <div class="formControl" id="email">
+            <input type="email" name="femail" placeholder="Email ID" required>
+        </div>
+
+        <div class="formControl" id="phone">
+           <input type="phone" name="fphone"  placeholder="Phone Number" pattern="[6789][0-9]{9}" title="Phone no. must start with 6-9 and should have 10 digits"><br class= "show"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formControl" id="pass">
+            <input type="password" name="fpass"  placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" title="Must contain at least 1 number, 1 uppercase, 1 lowercase letter, 1 specialcharacter and at least 8 or more characters"><br class="show"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formControl" id="cpass">
+            <input type="password" name="fcpass" placeholder="Confirm Password" required><br class="show"><b><span class="formerror"></span></b>
+        </div>
+        <div class="button">
+           <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>

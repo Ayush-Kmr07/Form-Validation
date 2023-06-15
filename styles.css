@@ -1,0 +1,59 @@
+
+body {
+  padding: 10px 50px;
+}
+
+.formdesign {
+  font-size: 20px;
+
+}
+
+.formControl input {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formerror {
+  color: red;
+}
+
+.btn {
+  border-radius: 9px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 20px;
+  background-color:#4681f4;
+  color: whitesmoke;
+}
+.show{
+  display: none;
+}
+.btn:hover{
+  color:#4681f4;
+  background-color:whitesmoke ;
+}
+
+@media (max-width:768px)
+{
+    .formControl input{
+      width:75%;
+    }
+    .show{
+      display:block;
+    }
+    .formControl{
+      text-align: center;
+    }
+    h1{
+      text-align: center;
+    }
+    .button{
+     text-align: center;
+    }
+    
+}
