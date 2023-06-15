@@ -35,7 +35,9 @@ This project provides a guide and code examples to perform form validation using
 To use the form validation techniques demonstrated in this project, follow these steps:
 
 1. Open the index.html file in any browser.
-2. Explore the different validation  available in the web page.
+2. Or click on this link:  https://ayush-kmr07.github.io/Form-Validation/
+3. Explore the different validation  available in the web page.
+4. If all the user input is validated true, then after clicking on SUBMIT button our page will get refreshed otherwise our page will show Validation error to user.
 
 To view the code of this project, follow these steps:
 1. Simply, open the index.html, index.js, styles.css in any IDE such as Visual Studio Code.
